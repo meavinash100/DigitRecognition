@@ -1,15 +1,28 @@
-![Image](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/img/93d5f08a4f82d4c.png)
+## Different variations of Deep Learning Models using Tensorflow for Handwritten Digit Recognition on MNIST Dataset
 
-This is support code for the codelab "[Tensorflow and deep learning - without a PhD](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist)"
+### The following variations of deep learning models are used in the exploration:
+* Fully connected shallow neural network without minibatched
+* Fully connected deep neural network with minibatchs
+* Fully connected deep neural network with dropout regularization
+* Fully connected deep neural network with dropout regularization and learning rate decay
+* Fully connected convolution neural network (CNN) without Maxpooling
+* Fully connected convolution neural network (CNN) with Maxpooling
 
-The presentation explaining the underlying concepts is [here](https://goo.gl/pHeXe7) and you will find codelab instructions to follow on its last slide. Do not forget to open the speaker notes in the presentation, a lot of the explanations are there.
+### Possible Hyperparameters 
+* Learning Rate
+* Dropout Rate
+* Minibatch Size
+* Number of Epochs
+* Number of Layers in the Neural Network (Depth of the network)
+* Number of Neurons in the Fully Connected Layers
+* For CNN
+  * Stride
+  * Number of Channel filters
+  * Kernal Size (Framesize) of Maxpool Layer
+  
+Note: 
+1. Some cmputation intensive parts of the code are commented because the development is done in a resource constrained environment. 
 
-The lab takes 2.5 hours and takes you through the design and optimisation of a neural network for recognising handwritten digits, from the simplest possible solution all the way to a recognition accuracy above 99%. It covers dense and convolutional networks, as well as techniques such as learning rate decay and dropout.
-
-Installation instructions [here](INSTALL.txt). The short version is: install Python3, then pip3 install tensorflow and matplotlib.
-   
-The most advanced advanced neural network in this repo achieves 99.5% accuracy on the MNIST dataset (world best is 99.7%) and uses [batch normalization](README_BATCHNORM.md).
-
----
-
-*Disclaimer: This is not an official Google product but sample code provided for an educational purpose*
+References:
+* Deep Learning Specialization on Coursera by deeplearning.ai
+* Martin Gorner repo https://github.com/martin-gorner/tensorflow-mnist-tutorial
