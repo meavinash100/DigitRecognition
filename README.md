@@ -1,4 +1,4 @@
-## Different variations of Deep Learning Models using Tensorflow for Handwritten Digit Recognition on MNIST Dataset
+## Different variations of Deep Learning Models using Tensorflow and Keras for Handwritten Digit Recognition on MNIST Dataset
 
 ### The following variations of deep learning models are used in the exploration:
 * Fully connected shallow neural network without minibatched
@@ -8,8 +8,19 @@
 * Fully connected convolution neural network (CNN) without Maxpooling
 * Fully connected convolution neural network (CNN) with Maxpooling
 
-### Possible Hyperparameters 
+### Possible Hyperparameters for Tensorflow
 * Learning Rate
+* Dropout Rate
+* Minibatch Size
+* Number of Epochs
+* Number of Layers in the Neural Network (Depth of the network)
+* Number of Neurons in the Fully Connected Layers
+* For CNN
+  * Stride
+  * Number of Channel filters
+  * Kernal Size (Framesize) of Maxpool Layer
+  
+### Possible Hyperparameters for Keras
 * Dropout Rate
 * Minibatch Size
 * Number of Epochs
