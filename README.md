@@ -5,8 +5,11 @@
 * Fully connected deep neural network with minibatchs
 * Fully connected deep neural network with dropout regularization
 * Fully connected deep neural network with dropout regularization and learning rate decay
-* Fully connected convolution neural network (CNN) without Maxpooling
-* Fully connected convolution neural network (CNN) with Maxpooling
+* Convolution neural network (CNN) without Maxpooling
+* Convolution neural network (CNN) with Maxpooling
+* Convolution neural network (CNN) without Maxpooling with Keras
+* Convolution neural network (CNN) with Maxpooling and Dropout with Keras
+* ResNet50 Implementation with Keras
 
 ### Possible Hyperparameters for Tensorflow
 * Learning Rate
