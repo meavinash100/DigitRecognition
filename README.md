@@ -35,7 +35,7 @@
   * Kernal Size (Framesize) of Maxpool Layer
   
 Note: 
-1. Some cmputation intensive parts of the code are commented because the development is done in a resource constrained environment. 
+1. Some computation intensive parts of the code are commented because the development is done in a resource constrained environment. 
 
 References:
 * Deep Learning Specialization on Coursera by deeplearning.ai
